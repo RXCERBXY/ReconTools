@@ -7,8 +7,9 @@ I hold no responsibility if you decide to do something unethical with the inform
 <br/>
 <br/>
 <br/>
-Requirements:
 
+Requirements:
+-
 1: nmap
 ```
 https://nmap.org/download.html
@@ -36,44 +37,57 @@ whois --version
 Recon tools is an allrounder batch file with reconniassance and lookup options. It allows you to scan IP Adresses, Domains and your Local Network. It utilises nmap and WHOIS for some of its functionalities, so make sure you have them installed beforehand
 
 It features:
+-
+- DNS Lookup + Cloudflare Detector
 
-DNS Lookup + Cloudflare Detector
+- Zone Transfer
 
-Zone Transfer
+- Port Scan
 
-Port Scan
+- HTTP Header Grabber
 
-HTTP Header Grabber
+- Honeypot Detector
 
-Honeypot Detector
+- Robots.txt Scanner
 
-Robots.txt Scanner
+- Link Grabber
 
-Link Grabber
+- Traceroute
 
-Traceroute
+- Grab Banners
 
-Grab Banners
+- Subnet Calculator
 
-Subnet Calculator
+- Sub-Domain Scanner
 
-Sub-Domain Scanner
+- Error Based SQLi Scanner
 
-Error Based SQLi Scanner
+- Bloggers View
 
-Bloggers View
+- Wordpress Scan
 
-Wordpress Scan
+- Crawler
 
-Crawler
+- MX Lookup
 
-MX Lookup
+- WHOIS Lookup
 
-WHOIS Lookup
+- IP Address Lookup
 
-IP Address Lookup
+- Local Network Scan
 
-Local Network Scan
+<br/>
+
+I am planning on adding new features such as:
+-
+- Username Lookup
+
+- Phone Number Lookup
+
+- Name Lookup
+
+- Email Lookup
+
 
 <br/>
 I got inspiration to do this from using other Recon Tools like REDHAWK and ReconDog. Go check them out and support their projects

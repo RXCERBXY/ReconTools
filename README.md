@@ -75,5 +75,15 @@ IP Address Lookup
 
 Local Network Scan
 
+<br/>
+I got inspiration to do this from using other Recon Tools like REDHAWK and ReconDog. Go check them out and support their projects
 
+ReconDog:
+```
+https://github.com/s0md3v/ReconDog
+```
 
+RED HAWK:
+```
+https://github.com/Tuhinshubhra/RED_HAWK
+```

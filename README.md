@@ -36,7 +36,7 @@ whois --version
 <br/>
 <br/>
 <br/>
-Recon tools is an allrounder batch file with reconniassance and lookup options. It allows you to scan IP Adresses, Domains and your Local Network. It utilises nmap and WHOIS for some of its functionalities, so make sure you have them installed beforehand
+Recon tools is an allrounder file with reconniassance and lookup options. It allows you to scan IP Adresses, Domains and your Local Network. It utilises nmap and WHOIS for some of its functionalities, so make sure you have them installed beforehand
 
 It features:
 -

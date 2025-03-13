@@ -1,4 +1,4 @@
-This is my first time at making a reconniassance themed batch file.
+This is my first time at making a reconniassance/cyber security themed project.
 Please expect some imperfections and/or errors as this is my first time making something like this with such functionality.
 
 This repo contains both a Batch file (.bat for windows) and a php file (.php for anything else)

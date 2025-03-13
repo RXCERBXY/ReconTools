@@ -1,6 +1,8 @@
 This is my first time at making a reconniassance themed batch file.
 Please expect some imperfections and/or errors as this is my first time making something like this with such functionality.
 
+This repo contains both a Batch file (.bat for windows) and a php file (.php for anything else)
+
 I hold no responsibility if you decide to do something unethical with the information you gather from using this batch file. Be careful with what you do if you do anything with the information. It's illegal if you don't get consent from the person before you use such information for penetration testing and such. It's also only illegal if you get caught :)
 <br/>
 <br/>

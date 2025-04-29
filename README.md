@@ -15,6 +15,9 @@ Requirements:
 
 -
 1: nmap
+
+For port scanning, host discovery, scripts (honeypot, banners, subnet, traceroute, etc.)
+
 Linux
 ```
 sudo apt install nmap
@@ -25,6 +28,9 @@ https://nmap.org/download.html
 ```
 
 2: WHOIS
+
+WHOIS lookups
+
 Linux
 ```
 sudo apt install whois
@@ -45,18 +51,27 @@ Verify that WHOIS has successfully installed
 whois --version
 ```
 
-dnsutils
+3: dnsutils
+
+nslookup (DNS lookup, zone transfer), dig (MX lookup)
+
 Linux
 ```
 sudo apt install dnsutils
 ```
 
-Curl
+4: Curl
+
+HTTP header grabber, robots.txt, link-grabber, IP info
+
 ```
 sudo apt install curl
 ```
 
-sqlmap
+5: sqlmap
+
+error-based SQLi scanning
+ 
 ```
 sudo snap install sqlmap
 ```

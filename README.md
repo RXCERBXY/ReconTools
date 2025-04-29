@@ -11,13 +11,24 @@ I hold no responsibility if you decide to do something unethical with the inform
 <br/>
 
 Requirements:
+
+
 -
 1: nmap
+Linux
+```
+sudo apt install nmap
+```
+Windows
 ```
 https://nmap.org/download.html
 ```
 
 2: WHOIS
+Linux
+```
+sudo apt install whois
+```
 
 (Install Chocolatey using windows powershell running as administrator as this was the easiest way for me to install WHOIS)
 
@@ -33,10 +44,26 @@ Verify that WHOIS has successfully installed
 ```
 whois --version
 ```
+
+dnsutils
+Linux
+```
+sudo apt install dnsutils
+```
+
+Curl
+```
+sudo apt install curl
+```
+
+sqlmap
+```
+sudo snap install sqlmap
+```
 <br/>
 <br/>
 <br/>
-Recon tools is an allrounder file with reconniassance and lookup options. It allows you to scan IP Adresses, Domains and your Local Network. It utilises nmap and WHOIS for some of its functionalities, so make sure you have them installed beforehand
+Recon tools is an allrounder tool with reconniassance and lookup options. It allows you to scan IP Adresses, Domains and your Local Network. It utilises nmap and WHOIS for some of its functionalities, so make sure you have them installed beforehand
 
 It features:
 -

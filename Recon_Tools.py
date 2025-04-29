@@ -332,8 +332,39 @@ def mx_lookup():
     scan_menu()
 
 def local_scan():
-    print("Scanning local network (192.168.1.0/24)...")
-    run_command("nmap -sn 192.168.1.0/24")
+    subnet = "192.168.1.0/24"
+    print(f"Scanning local network hosts in {subnet}...")
+
+    # 1) Ping-sweep to discover live hosts
+    ping_scan = subprocess.run(
+        f"nmap -sn {subnet}",
+        shell=True,
+        capture_output=True,
+        text=True
+    )
+    print(ping_scan.stdout)
+
+    # 2) Extract live IPs from the ping-scan output
+    live_ips = re.findall(r"Nmap scan report for ([0-9]+(?:\.[0-9]+){3})", ping_scan.stdout)
+
+    if not live_ips:
+        print("No live hosts found.")
+    else:
+        print("Live hosts discovered:", ", ".join(live_ips))
+        print("Performing port scan on each live host...")
+
+        # 3) Port scan on each discovered IP
+        for ip in live_ips:
+            print(f"\n--- Port scan for {ip} ---")
+            port_scan = subprocess.run(
+                f"nmap -Pn {ip}",
+                shell=True,
+                capture_output=True,
+                text=True
+            )
+            print(port_scan.stdout)
+
+    pause()
     local_menu()
 
 def ip_locator():
